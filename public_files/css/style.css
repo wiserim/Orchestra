@@ -1,0 +1,8 @@
+.layout {display:flex;flex-direction:column;min-height:100vh;}
+.z-index-1 {position:relative; z-index:1;}
+.d-flex > .tabs {flex-grow: 1; display:flex; flex-direction:column;}
+.d-flex > .tab-pane.active {display:flex; flex-grow:1;}
+
+.is-invalid~.invalid-feedback {display:block;}
+.dropdown.d-block .btn {display:block; width:100%; text-align:left; padding-right:1.5rem;}
+.dropdown.d-block .btn:after {position:absolute; top:50%; right:0.75rem; transform:translateY(-50%);}
