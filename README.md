@@ -1,6 +1,6 @@
 # Orchestra
 
-Orchestra is a web based application for simultaneous collaborative music generation by multiple users.
+Orchestra is a web based application for simultaneous, collaborative music generation by multiple users.
 Project was part of thesis: *System for generating, editing and transmitting multi-source audio streams using Web Audio API, Web RTC and Web MIDI*.
 
 ### Abstract
