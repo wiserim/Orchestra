@@ -19,9 +19,37 @@ Project was part of master thesis: *System for generating, editing and transmitt
 * self hosted STUN adn TURN servers.
 
 ## Project setup
-
+I. Install npm packages.
 ```
 npm install
+```
+II. Configure TURN server in app.js
+```javascript
+turnServer: {
+  authMech: 'long-term',
+  credentials: {
+    //user: password
+    TurnServerExampleUsername: 'TurnServerExamplePassword'
+  },
+  listeningIps: [
+    '127.0.0.1' //TURN server ip (host ip)
+  ]
+}
+```
+III. Configure STUN and TURN servers data in src/store.js
+```javascript
+iceServers: [
+  //STUN server
+  {
+    urls: 'stun:stun-server-url.com'
+  },
+  //TURN server
+  {
+    urls: 'turn:turn-server-url.com',
+    credential: 'TurnServerExamplePassword',
+    username: 'TurnServerExampleUsername'
+  }
+]
 ```
 
 ### Compiles and hot-reloads for development
