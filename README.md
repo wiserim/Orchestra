@@ -28,7 +28,7 @@ I. Install npm packages.
 ```
 npm install
 ```
-II. Configure TURN server in app.js
+II. Configure TURN server in *app.js*
 ```javascript
 turnServer: {
   authMech: 'long-term',
@@ -41,7 +41,7 @@ turnServer: {
   ]
 }
 ```
-III. Configure STUN and TURN servers data in src/store.js
+III. Configure STUN and TURN servers data in *src/store.js*
 ```javascript
 iceServers: [
   //STUN server
