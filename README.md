@@ -8,6 +8,10 @@ Project was part of thesis: *System for generating, editing and transmitting mul
 
 **Key words**: Web Audio API, WebRTC, Web MIDI, sound synthesis, sound processing, peerto-peer communication
 
+<p align="center">
+  <img src="/public_files/assets/readme/screenshot-1.png" alt="Screenshot">
+</p>
+
 ## Features:
 * audio editing:
   * note based interface,
