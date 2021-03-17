@@ -1,6 +1,6 @@
 # Orchestra
 
-Orchestra is a web based, xxx audio
+Orchestra is a web based application for collaborative music generation.
 Project was part of master thesis: *System for generating, editing and transmitting multi-source audio streams using Web Audio API, Web RTC and Web MIDI*.
 
 ### Abstract
@@ -9,16 +9,14 @@ Project was part of master thesis: *System for generating, editing and transmitt
 **Key words**: Web Audio API, WebRTC, Web MIDI, sound synthesis, sound processing, peerto-peer communication
 
 ## Features:
-* Audio editing:
-  * audio samples,
-  * synths,
-  * audio inputs,
-  * audio modification with special effects,
-  * audio recording,
-* multiple rooms management,
+* audio editing:
+  * note based interface,
+  * support for various audio sources (audio samples, synths, audio microphones),
+  * audio recording and export (WAV, OGG, MP3),
+  * MIDI controls (if supported by browser),
+* room management,
 * group chat,
-* STUN adn TURN servers,
-* MIDI (if supported by browser),
+* self hosted STUN adn TURN servers.
 
 ## Project setup
 
